@@ -2,7 +2,7 @@ var update   = null,
     weekday  = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
     monthday = ["Jan", "Feb","Mar","Apr","May","June","July","Aug","Sep","Oct","Nov","Dec"];
 
-function example(){
+var example = () =>{
 
   /* 
   * Get information about where is ISS now
@@ -44,7 +44,6 @@ function example(){
     
     var people = data.people;
     var number = data.number;
-    console.log(data.number)
     $(".people-inner").empty();
     $(".people-bottom").empty();
     $.each(people, function( key, val ) {

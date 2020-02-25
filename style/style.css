@@ -2,84 +2,83 @@
   box-sizing: border-box;
 }
 #map {
-    height: 75%;
-    width: 75%;
-  }
-  /* Optional: Makes the sample page fill the window. */
-  html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  .place{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;;
-    width: 75%;
-    border: 1px solid black;
-    height: 50px;
-    padding-left: 20px;
-  }
-  .my-new-list{
-    font-style: italic;
-  }
-  .iss{
-    font-weight: 700;
-  }
-  .block-top{
-    display: flex;
-    margin-bottom: 50px;
-  }
-  .time{
-    display: flex;
-    align-items: center;
-    width: 25%;
-    border: 1px solid black;
-    height: 50px;
-    margin-left: 20px;
-    padding: 0px 20px;
-  }
-  .longitude{
-    margin-right: 30px;
-  }
-  .current,
-  .hours{
-    font-weight: 700;
-  }
-  .other-days{
-    font-style: italic;
-  }
-  .people{
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    margin-left: 20px;
-  }
-  .people-inner{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    padding: 20px;
-    width: 100%;
-    height: 75%;
-  }
-  .people-bottom{
-    text-align: center;
-    border: 1px solid black;
-    height: 30px;
-    line-height: 30px;
-    border-top: none;
-  }
-  .people-inner span{
-    height: 30px;
-    margin-bottom: 10px;
-    border: 1px solid black;
-    border-radius: 5px;
-    text-align: center;
-    line-height: 30px;
-  }
-  .block-bottom{
-    height: 100%;
-    display: flex;
+  height: 75%;
+  width: 75%;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.place{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;;
+  width: 75%;
+  border: 1px solid black;
+  height: 50px;
+  padding-left: 20px;
+}
+.my-new-list{
+  font-style: italic;
+}
+.iss{
+  font-weight: 700;
+}
+.block-top{
+  display: flex;
+  margin-bottom: 50px;
+}
+.time{
+  display: flex;
+  align-items: center;
+  width: 25%;
+  border: 1px solid black;
+  height: 50px;
+  margin-left: 20px;
+  padding: 0px 20px;
+}
+.longitude{
+  margin-right: 30px;
+}
+.current,
+.hours{
+  font-weight: 700;
+}
+.other-days{
+  font-style: italic;
+}
+.people{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-left: 20px;
+}
+.people-inner{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 20px;
+  width: 100%;
+  height: 75%;
+}
+.people-bottom{
+  text-align: center;
+  border: 1px solid black;
+  height: 30px;
+  line-height: 30px;
+  border-top: none;
+}
+.people-inner span{
+  height: 30px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 30px;
+}
+.block-bottom{
+  height: 100%;
+  display: flex;
 
-  }
+}
